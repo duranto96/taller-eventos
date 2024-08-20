@@ -6,7 +6,7 @@ miDiv.addEventListener("click", function () {
   alert("Hola! Soy el div");
 });
 
-// Solución para que no se ejecute el onclick
+// Solución para que no se ejecute el evento click del div
 const miBtn = document.getElementById("miBtn");
 miBtn.addEventListener("click", function (event) {
   // Detener la propagación para que no se ejecute el onclick
